@@ -13,7 +13,7 @@ class Question {
     this.constructor._All.push(this)
   }
   static Find(id){
-    return this._All().filter(function(x){
+    return this._All.filter(function(x){
       return x.id===id
     })
   }

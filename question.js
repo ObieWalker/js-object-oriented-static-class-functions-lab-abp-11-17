@@ -2,7 +2,7 @@
 class Question {
   constructor(content){
     this.content = content
-    //save()
+    this.save()
   }
 
   static All(){
@@ -10,7 +10,7 @@ class Question {
   }
 
   save(){
-
+    this.constructor._All.push(this)
   }
   find(){
 

@@ -2,6 +2,7 @@
 class Question {
   constructor(content){
     this.content = content
+    save()
   }
 
   static All(){
@@ -9,6 +10,9 @@ class Question {
   }
 
   save(){
+
+  }
+  find(){
     
   }
 

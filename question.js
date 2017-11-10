@@ -2,7 +2,7 @@
 class Question {
   constructor(content){
     this.content = content
-    save()
+    //save()
   }
 
   static All(){

@@ -5,6 +5,6 @@ class Question {
     return this._All
   }
 
-this._All=[]
+//this._All=[]
 
 }

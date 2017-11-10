@@ -8,4 +8,3 @@ class Question {
 this._All=[]
 
 }
-

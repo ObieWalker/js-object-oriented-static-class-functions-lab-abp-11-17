@@ -12,8 +12,8 @@ class Question {
   save(){
     this.constructor._All.push(this)
   }
-  find(){
-
+  static find(id){
+    return this._All[id+1]
   }
 
 
